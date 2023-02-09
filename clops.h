@@ -3,7 +3,7 @@
 
 #include <complex.h>
 #undef I
-#define j _Imaginary_I
+#define j _Complex_I
 
 enum Goals {
     NoGoal,

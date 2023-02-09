@@ -16,12 +16,13 @@ enum Goals {
     MostRotations
 };
 
+extern const char *GoalNames[8];
+
 struct Player {
     char name[32];
     double _Complex score;
     int scoreGoal;
     double angularDistance;
-    double angularDisplacement;
 };
 
 #endif /* CLOPS_H */

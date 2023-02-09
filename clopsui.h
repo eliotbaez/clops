@@ -5,5 +5,6 @@
 #include "clops.h"
 
 struct Player *getPlayer();
+void showPlayer(struct Player *p);
 
 #endif /* CLOPS_UI_H */
